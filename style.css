@@ -1,0 +1,443 @@
+body {
+  background-color: rgb(243, 242, 242);
+}
+.navbar {
+  width: 98vw;
+  height: 60px;
+  display: flex;
+  background-color: #fff;
+ box-shadow: 2px 2px 0px 2px white;
+  border-radius: 10px;
+
+}
+.navbarleft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbarright {
+  width: 50%;
+ align-items: center;
+  justify-content: flex-end;
+ display: flex;
+}
+.dd {
+  font-size: 25px;
+  color: black;
+  
+}
+.news {
+  font-size: 22px;
+  width: 85px;
+ display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.news2 {
+  font-size: 22px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.news3 {
+  font-size: 22px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.relavence {
+  font-size: 22px;
+  cursor: pointer;
+}
+.search {
+  font-size: 20px;
+  margin-right: 3%;
+}
+
+/* ---------------...................  */
+
+.navslidebar{
+  display: none !important;
+  width: 200px;
+  height: 200px;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 1px 1px 0px 1px gray;
+  background-color: grey;
+  border-radius: 10px;
+  position: absolute;
+  left: -205px;
+  transition: all 2s ease-in;
+}
+.slide1{
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: #fff;
+  box-shadow: 1px 1px 0px 1px gray;
+  cursor: pointer;
+}
+.newshead1{
+  margin-right: 3%;
+}
+
+.cross{
+  font-size: 20px;
+  display: none;
+  transition: all 2s ease-in;
+  /* display: none !important; */
+}
+/* -------------------------------------->>>>>>>>>> */
+
+.middle {
+  width: 98vw;
+  height: 120px;
+  margin-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  box-shadow: 2px 2px 0px 2px white;
+  border-radius: 10px;
+}
+.mc {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+}
+.mcleft {
+  width: 25%;
+  height: 75%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mcright {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mcdesc {
+  font-size: 18px;
+  font-weight: 550;
+}
+.mcdesc2 {
+  font-size: 18px;
+  font-weight: 500;
+  color: gray;
+}
+
+/* -------------------- third section--------------- */
+
+.thirdSection {
+  width: 98vw;
+  height: 61vh;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.thirtLeft {
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.thirdmiddle {
+  width: 45%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.thirdmiddlecontent {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 30%;
+  color: white;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+
+.thirdmiddle::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/pic.jpg) no-repeat center/cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+.thirdright {
+  width: 23%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.thirdleft1 {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+.thirdleft1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background: url(/pic3.jpg) no-repeat center/cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  z-index: -1;
+}
+.thirdleftcontent {
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 65%;
+  color: white;
+  flex-direction: column;
+  margin-bottom: 1%;
+}
+
+.tlcontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 35px;
+  font-size: 22px;
+  font-weight: 550;
+  border-radius: 5px;
+  background-color: orchid;
+}
+.tlcontentH1 {
+  background-color: purple;
+}
+.tlcontentH2 {
+  background-color: rgb(127, 127, 214);
+}
+.tlcontentH3 {
+  background-color: purple;
+}
+.tlcontentH4 {
+  background-color: rgb(207, 165, 38);
+}
+.tlcontentH5 {
+  background-color: red;
+}
+
+.tlcontent1 {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+.tlcontent2 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.thirdleft2 {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.thirdleft2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/pic.jpg) no-repeat center/cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  z-index: -1;
+}
+.thirdright1 {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 2%;
+  cursor: pointer;
+}
+
+.thirdright1::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/pic.jpg) no-repeat center/cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  z-index: -1;
+}
+
+.thirdright2 {
+  width: 100%;
+  height: 48%;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.thirdright2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(/pic4.jpg) no-repeat center/cover;
+  border-radius: 10px;
+  border: 2px solid gray;
+  z-index: -1;
+}
+
+/* --------fourth section ------------- */
+
+.fourthsection{
+  display: none !important;
+  /* border: 1px solid red; */
+  /* width: 60vh; */
+  width: 97vw;
+  /* height: 70vh; */
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.fourthtop{
+  height:  40%;
+  width:  95%;
+  /* border: 1px solid black; */
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 2%;
+  border-radius: 10px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.fourthbottum{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.fb{
+width: 95%;
+height: 25%;
+/* border: 1px solid blue; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #fff;
+box-shadow: 1px 1px 0px 1px grey;
+margin-bottom:4%;
+border-radius: 8px;
+}
+
+.fourthtop::before{
+  
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(/pic.jpg) no-repeat center/cover;
+    border-radius: 10px;
+    /* border: 2px solid gray; */
+    z-index: -1;
+    border-radius: 10px;
+  }
+  .fourthmiddlecontent{
+    height: 60%;
+  }
+
+  .fbleft{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.fbright{
+  width: 65%;
+  height: 100%;
+  /* border: 1px solid red; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  flex-direction: column;
+}
+.fbleftimg{
+  width: 75%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.fbfashion{
+  color: purple;
+  font-weight: 550;
+}
+.fdfashiondesc{
+  font-weight: 550;
+}
+.thirdleft1:hover{
+  opacity: 0.8;
+}
+.thirdleft2:hover{
+  opacity: 0.8;
+}
+.thirdright1:hover{
+  opacity: 0.8;
+}
+.thirdright2:hover{
+  opacity: 0.8;
+}
+.thirdmiddle:hover{
+  opacity: 0.8;
+}
+.a{
+  color: blue;
+}
